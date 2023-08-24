@@ -1,0 +1,38 @@
+@import "./homepage.css";
+@import "./banner.css";
+@import "./introduce.css";
+@import "./news.css";
+@import "./footer.css";
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    font-style: normal;
+    line-height: normal;
+}
+
+.container {
+    max-width: 1160px;
+}
+a {
+    color: #000;
+    text-decoration: none
+}
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: capitalize;
+}
+h5 {
+    color: #ED1C24;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
