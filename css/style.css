@@ -13,9 +13,6 @@ body {
     line-height: normal;
 }
 
-.container {
-    max-width: 1160px;
-}
 a {
     color: #000;
     text-decoration: none
@@ -38,4 +35,21 @@ h5 {
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 14px;
+}
+@media (min-width: 576px) {
+    
+}
+@media (min-width: 768px) {
+    
+}
+@media (min-width: 992px) {
+    
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1160px;
+    }
+}
+@media (min-width: 1400px) {
+    
 }

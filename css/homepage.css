@@ -79,8 +79,13 @@
 #btn-hide-menu {
   width: 20px;
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 576px) {
+    
+}
+@media (min-width: 768px) {
+    
+}
+@media (min-width: 992px) {
   .header-topbar-seach {
     position: absolute;
     right: 0px;
@@ -106,4 +111,7 @@
   #input-search.hide {
     width: 0px;
   }
+}
+@media (min-width: 1200px) {
+  
 }
