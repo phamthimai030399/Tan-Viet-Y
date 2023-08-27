@@ -1,19 +1,19 @@
-// const swiperBanner = new Swiper(".slider-content", {
-//   loop: true,
-//   speed: 1000,
-//   autoplay: {
-//     delay: 2500,
-//     disableOnInteraction: false,
-//   },
-//   navigation: {
-//     nextEl: ".slider-content .swiper-button-next",
-//     prevEl: ".slider-content .swiper-button-prev",
-//   },
-//   pagination: {
-//     el: ".swiper-pagination",
-//     clickable: true,
-//   },
-// });
+const swiperBanner = new Swiper(".slider-content", {
+  loop: true,
+  speed: 1000,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".slider-content .swiper-button-next",
+    prevEl: ".slider-content .swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
 
 const swiperIntroduce = new Swiper(".introduce-slider-content", {
   loop: true,
