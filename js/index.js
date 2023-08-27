@@ -87,4 +87,7 @@ $(document).ready(function () {
       videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
     );
   });
+  $("#myModal").on("hide.bs.modal", function (e) {
+    $("#video").attr("src", "");
+  });
 });
