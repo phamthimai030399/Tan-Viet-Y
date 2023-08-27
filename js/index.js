@@ -25,7 +25,7 @@ const swiperIntroduce = new Swiper(".introduce-slider-content", {
     disableOnInteraction: false,
   },
   navigation: {
-    nextEl: ".introduce-slider-content .swiper-button-next",
+    nextEl: ".introduce-slider-content + .swiper-button-next",
   },
   breakpoints: {
     768: {
