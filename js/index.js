@@ -30,14 +30,37 @@ const swiperIntroduce = new Swiper(".introduce-slider-content", {
   breakpoints: {
     768: {
       slidesPerView: 2,
-      spaceBetween: 40,
     },
     992: {
       slidesPerView: 2.5,
-      spaceBetween: 50,
     },
   },
 });
+
+const swiperOutstandingProject = new Swiper(".outstanding-project-slider", {
+  loop: true,
+  speed: 1000,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".outstanding-project-slider .swiper-button-next",
+    prevEl: ".outstanding-project-slider .swiper-button-prev",
+  },
+  slidesPerView: 1,
+  spaceBetween: 24,
+  freeMode: true,
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+    992: {
+      slidesPerView: 3,
+    },
+  },
+});
+
 $(document).ready(function () {
   $("#btn-search").click(function () {
     let element = $("#input-search");
@@ -57,19 +80,11 @@ $(document).ready(function () {
       overflow: "auto",
     });
   });
-});
-const swiperOutstandingProject = new Swiper(".outstanding-project-slider", {
-  loop: true,
-  speed: 1000,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
-  navigation: {
-    nextEl: ".outstanding-project-slider .swiper-button-next",
-    prevEl: ".outstanding-project-slider .swiper-button-prev",
-  },
-  slidesPerView: 3,
-  spaceBetween: 24,
-  freeMode: true,
+  $(".video-item").click(function () {
+    let videoSrc = $(this).data("src");
+    $("#video").attr(
+      "src",
+      videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
+    );
+  });
 });
