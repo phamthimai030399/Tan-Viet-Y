@@ -2,6 +2,8 @@
 @import "./banner.css";
 @import "./introduce.css";
 @import "./news.css";
+@import "./outstanding-project.css";
+@import "./product.css";
 @import "./footer.css";
 
 body {
@@ -28,11 +30,12 @@ h3 {
     font-weight: 700;
     line-height: 70px;
     text-transform: capitalize;
+    margin-bottom: 52px;
 }
 h5 {
     color: #ED1C24;
     font-size: 12px;
     font-weight: 400;
-    letter-spacing: 1.2px;
     text-transform: uppercase;
+    margin-bottom: 14px;
 }

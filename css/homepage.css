@@ -1,42 +1,109 @@
 #fhm-header {
-    max-height: 80px;
+  /* max-height: 80px; */
 }
 
 .header-logo {
 }
 
-.header-container .menu {
-    top: 33px;
+.header-container {
+  position: fixed;
+  height: 100%;
+  z-index: 99;
+  width: 100%;
+  right: 0;
+  top: 0;
+  background: rgba(50, 50, 50, 0.5);
+  opacity: 0; 
+  visibility: hidden; 
+  transition: opacity 1s ease, visibility 0s linear 1s;
+}
+.header-container.show {
+  opacity: 1;
+  visibility: visible;   transition: opacity 1s ease, visibility 0s linear;
+}
+
+.header-container.show .menu-wrapper{
+  transform: translateX(0%);
+}
+.header-container .menu-wrapper {
+    transform: translateX(100%);
+    width: 70%;
+    background-color: white;
+    height: 100%;
+    transition: all ease 0.5s;
+}
+
+.header-container ul {
+  gap: 0px;
 }
 .header-container .nav-item {
-    padding: 20px 0px;
+  padding: 15px 0px;
+}
+.header-container .nav-item.active {
+  border-bottom: 2px solid #ed1c24;
 }
 .header-container .nav-link {
-    color: #000;
-    font-size: 12px;
-    font-weight: 400;
-    text-transform: uppercase;
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.header-topbar {
+  top: 16px;
+  right: 0px;
+}
+
+.header-topbar-seach {
+  position: relative;
 }
 
 .header-topbar-seach input {
-    border: none;
-    outline: none;
-    font-size: 12px;
-    font-weight: 400;
-    border-bottom: 1px solid #dfdfdf;
-    padding: 5px 0px;
-    transition: all ease 0.5s;;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  font-weight: 400;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 5px 0px;
+  transition: all ease 0.5s;
 }
 .header-topbar-seach input:focus-visible {
-    border-bottom: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
 }
 
-.header-container .navbar-collapse .navbar-nav {
-    gap: 30px;
+#input-search {
+  width: 150px;
+  transition: all ease 0.5s;
+}
+
+#btn-hide-menu {
+  width: 20px;
 }
 
 @media (min-width: 1200px) {
-    .header-container .navbar-collapse .navbar-nav {
-        gap: 45px;
-    }
+  .header-topbar-seach {
+    position: absolute;
+    right: 0px;
+    top: 16px;
+  }
+  .header-container ul {
+    gap: 30px;
+  }
+  .header-container {
+    display: flex;
+    opacity: 1;
+    position: relative;
+    visibility: visible;
+    background: none;
+  }
+  .header-container .menu-wrapper {
+    width: auto;
+    transform: translateX(0%);
+  }
+  .header-container .nav-item {
+    padding: 50px 0px 20px 0px;
+  }
+  #input-search.hide {
+    width: 0px;
+  }
 }
