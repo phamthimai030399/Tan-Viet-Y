@@ -4,19 +4,22 @@
 #fhm-news .news-container .news-image {
     width: 100%;
     position: relative;
+    overflow: hidden; 
+    transition: transform 0.3s;
 }
 #fhm-news .news-container .news-image img {
-    width: 100%; 
+    width: 100%;    
     height: 100%; 
     object-fit: cover; 
     top: 0;
     left: 0; 
 }
-#fhm-news .news-container .news-item {
+#fhm-news .news-container .news-image img {
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
-#fhm-news .news-container .news-item:hover {
-    /* transform: scale(0.95); */
+#fhm-news .news-container .news-image img:hover {
+    transform: scale(1.02);
 }
 #fhm-news .news-container .news-item-left,
 #fhm-news .news-container .news-item-between,
