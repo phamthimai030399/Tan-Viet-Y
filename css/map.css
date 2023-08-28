@@ -6,11 +6,14 @@
     position: relative;
 }
 .box-address {
-    position: absolute;
-    margin: 20px 0px 20px 20px;
+    position: relative;
+    left: unset;
+    top: unset;
     background: #fff;
     padding: 20px;
-    width: 27%;
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: unset;
     overflow: hidden;
 }
 .box-address .select-city {
@@ -78,4 +81,11 @@
 }
 .box-address .iframe-element .iframe-infomation p {
     line-height: 20px; 
+}
+@media (min-width: 992px) {
+    .box-address {
+        position: absolute;
+        margin: 20px 0px 20px 20px;
+        width: 27%;
+    }
 }
