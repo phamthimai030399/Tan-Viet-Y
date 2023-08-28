@@ -1,8 +1,8 @@
 const swiperBanner = new Swiper(".slider-content", {
   loop: true,
-  speed: 1000,
+  speed: 2000,
   autoplay: {
-    delay: 2500,
+    delay: 2000,
     disableOnInteraction: false,
   },
   navigation: {
