@@ -92,8 +92,11 @@
     top: 16px;
   }
   .header-container ul {
-    gap: 45px;
+    gap: 40px;
   }
+  .header-container .nav-link {
+    font-size: 10px;
+}
   .header-container {
     display: flex;
     opacity: 1;
@@ -113,5 +116,11 @@
   }
 }
 @media (min-width: 1200px) {
+  .header-container .nav-link {
+    font-size: 12px;
+}
+.header-container ul {
+  gap: 45px;
+}
   
 }

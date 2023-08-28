@@ -109,11 +109,3 @@ $(document).ready(function () {
     $("#video").attr("src", "");
   });
 });
-
-var box1 = document.querySelector('.product-img');
-var box1Width = box1.offsetWidth;
-var box1Height = box1.offsetHeight;
-
-// Tính toán giá trị top cho .box2
-var box2 = document.querySelector('.test');
-box2.style.top = (box1Height + 30) + 'px';
