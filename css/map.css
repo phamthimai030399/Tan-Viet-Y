@@ -1,0 +1,81 @@
+#fhm-map {
+    margin-bottom: calc(-20%);
+}
+.block-map {
+    width: 100%;
+    position: relative;
+}
+.box-address {
+    position: absolute;
+    margin: 20px 0px 20px 20px;
+    background: #fff;
+    padding: 20px;
+    width: 27%;
+    overflow: hidden;
+}
+.box-address .select-city {
+    border-radius: 3px;
+    border: 1px solid #DFE2FD;
+    padding: 9px 10px 7px 20px;
+    margin-bottom: 18px;
+}
+.box-address .select-city .form-select {
+    border: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0px;
+}
+.box-address .select-city .form-select:focus-visible,
+.box-address .select-city .form-select:focus {
+    border: none;
+    box-shadow:none
+}
+.box-address .select-city span {
+    color: #000;
+    font-size: 10px;
+    font-weight: 300;
+}
+.box-address .content {
+    height: 400px;
+    padding-right: 25px;
+    overflow-y: auto;
+}
+.box-address .iframe-element {
+    color: #000;
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.box-map {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.box-address .iframe-element hr {
+    width: 30px;
+    height: 3px;
+    background: #DFE2FD;
+    border: none;
+    margin-bottom: 15px;
+    margin: 0px 0px 10px 0px;
+}
+.box-address .iframe-element .title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.box-address .iframe-element .iframe-infomation {
+    color: #000;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 25px; 
+}
+.box-address .iframe-element .iframe-infomation span {
+    display: block;
+}
+.box-address .iframe-element .iframe-infomation p {
+    line-height: 20px; 
+}
