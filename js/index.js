@@ -84,6 +84,10 @@ $(document).ready(function () {
     let element = $("#input-search");
     element.toggleClass("hide");
   });
+  $(".btn-dropdown").click(function () {
+    let element = $(this).next("ul");
+    element.toggleClass("show");
+  });
   $("#btn-menu").click(function () {
     let element = $("#menu");
     element.addClass("show");
@@ -107,5 +111,8 @@ $(document).ready(function () {
   });
   $("#myModal").on("hide.bs.modal", function (e) {
     $("#video").attr("src", "");
+  });
+  $(".nav-link.caret-down + .fa-caret-down").click(function(){
+    // alert('alert');
   });
 });

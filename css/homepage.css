@@ -29,9 +29,12 @@
 .header-container ul {
   gap: 0px;
 }
-.header-container .nav-item {
-  padding: 15px 0px;
+.header-container .nav-item { 
+  margin: 15px 0px;
 }
+/* .header-container .nav-item:hover .nav-link { 
+  color: #ed1c24;
+} */
 .header-container .nav-item.active {
   border-bottom: 2px solid #ed1c24;
 }
@@ -83,6 +86,10 @@
     position: absolute;
     right: 0px;
     top: 16px;
+  }
+  .header-container .nav-item { 
+    padding: 15px 0px;
+    margin: 0px;
   }
   .header-container ul {
     gap: 40px;
