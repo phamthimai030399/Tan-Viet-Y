@@ -57,9 +57,10 @@
 }
 #fhm-outstanding-project .btn-close {
   position: absolute;
-  right: 0px;
-  top: 0;
+  right: -57px;
+  top: -30px;
   z-index: 99;
+  font-size: 25px;
 }
 #fhm-outstanding-project .video-item::before {
   content: "\25BA"; 

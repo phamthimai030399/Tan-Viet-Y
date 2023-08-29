@@ -33,8 +33,12 @@
     line-height: 24px;
   }
   #fhm-footer .footer-main .footer-element.footer-element-info {
-    position: relative;
+    position: relative; 
     top: -40px;
+  }
+  #fhm-footer .footer-main .footer-element.footer-element-info img {
+    width: 157px;
+    margin-bottom: 25px;
   }
   #fhm-footer .footer-main .footer-element.footer-element-info ul li span {
     font-weight: 500;

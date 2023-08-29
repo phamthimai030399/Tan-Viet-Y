@@ -19,9 +19,9 @@ const swiperIntroduce = new Swiper(".introduce-slider-content", {
   loop: true,
   slidesPerView: 1,
   spaceBetween: 40,
-  speed: 5000,
+  speed: 2000,
   autoplay: {
-    delay: 5000,
+    delay: 2000,
     disableOnInteraction: false,
   },
   navigation: {
