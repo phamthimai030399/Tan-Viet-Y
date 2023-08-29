@@ -45,8 +45,8 @@ const swiperOutstandingProject = new Swiper(".outstanding-project-slider", {
     disableOnInteraction: false,
   },
   navigation: {
-    nextEl: ".outstanding-project-slider .swiper-button-next",
-    prevEl: ".outstanding-project-slider .swiper-button-prev",
+    nextEl: ".outstanding-project-slider + .swiper-button-next",
+    prevEl: ".outstanding-project-slider + .swiper-button-prev",
   },
   slidesPerView: 1,
   spaceBetween: 24,

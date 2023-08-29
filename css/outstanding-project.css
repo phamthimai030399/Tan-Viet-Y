@@ -71,3 +71,30 @@
   transform: translate(-50%, -50%);
   z-index: 99;
 }
+#fhm-outstanding-project .swiper-button{
+  top: 60%;
+  padding: 0px 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  width: auto;
+}
+#fhm-outstanding-project .swiper-button svg{
+  width: 10px;
+  height: 15px;
+}
+
+#fhm-outstanding-project .swiper-button::after{
+  content: none;
+}
+@media (min-width: 768px) {
+  #fhm-outstanding-project .swiper-button {
+    padding: 14px 18px;
+    top: 55%;
+  }
+  #fhm-outstanding-project .swiper-button-next{
+    transform: translateX(50%);
+  }
+  #fhm-outstanding-project .swiper-button-prev{
+    transform: translateX(-50%);
+  }
+}
