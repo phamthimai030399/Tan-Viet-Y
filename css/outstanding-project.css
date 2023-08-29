@@ -2,10 +2,6 @@
   background: #f9f9f9;
   padding: 68px 0px 96px 0px;
 }
-#fhm-outstanding-project .outstanding-project-slider .swiper-slide {
-  /* background: rgba(0, 0, 0, 0.30);
-  mix-blend-mode: multiply; */
-}
 #fhm-outstanding-project .outstanding-project-slider .swiper-slide img {
   display: block;
   width: 100%;  
@@ -26,19 +22,6 @@
 }
 .outstanding-project-button {
   margin-top: 53px;
-}
-.outstanding-project-button a {
-  color: #fff;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 32px;
-  text-transform: uppercase;
-  display: inline-flex;
-  padding: 5px 30px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  background: #269a52;
 }
 
 #fhm-outstanding-project .modal-dialog {

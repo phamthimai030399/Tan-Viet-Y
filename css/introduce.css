@@ -11,20 +11,6 @@
   line-height: 32px;
   margin-bottom: 28px;
 }
-#fhm-introduce .introduce-content .introduce-content-left a {
-  display: inline-flex;
-  padding: 5px 30px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 5px;
-  background: #269a52;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 32px;
-  text-transform: uppercase;
-}
 #fhm-introduce .introduce-content .introduce-content-right {
   max-width: 35%;
   position: relative;
@@ -86,6 +72,4 @@
   .introduce-slider-box .slider-item {
     width: 400px;
   }
-}
-@media (min-width: 1400px) {
 }
