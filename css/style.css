@@ -9,6 +9,9 @@
 @import "./banner-introduce.css";
 @import "./detail-introduction.css";
 @import "./table-introduction.css";
+@import "./banner-accreditation.css";
+@import "./certificate.css";
+@import "./quality-panels.css";
 @import "./footer.css";
 
 body {

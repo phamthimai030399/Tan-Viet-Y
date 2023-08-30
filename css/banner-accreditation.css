@@ -1,0 +1,13 @@
+#fhm-banner-accreditation {
+    background: url(../image/banner-accreditation-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+
+@media (min-width: 992px) {
+    #fhm-banner-accreditation {
+        background: url(../image/banner-accreditation.png);
+        min-height: 400px;
+    }
+}
