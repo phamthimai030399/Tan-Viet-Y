@@ -1,0 +1,13 @@
+#fhm-banner-introduce {
+    background: url(../image/banner-introduce-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+
+@media (min-width: 992px) {
+    #fhm-banner-introduce {
+        background: url(../image/banner-introduce.png);
+        min-height: 400px;
+    }
+}

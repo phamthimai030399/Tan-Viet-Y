@@ -6,6 +6,9 @@
 @import "./outstanding-project.css";
 @import "./product.css";
 @import "./map.css";
+@import "./banner-introduce.css";
+@import "./detail-introduction.css";
+@import "./table-introduction.css";
 @import "./footer.css";
 
 body {
@@ -37,6 +40,9 @@ h5 {
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 14px;
+}
+p {
+    text-align: justify;
 }
 
 .title-button {

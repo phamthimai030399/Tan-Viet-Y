@@ -1,0 +1,17 @@
+#fhm-table-introduce {
+    margin-bottom: 140px;
+}
+#fhm-table-introduce .table thead th {
+font-size: 16px;
+font-weight: 700;
+}
+#fhm-table-introduce .table .tbody thead td {
+font-size: 16px;
+font-weight: 400;
+}
+#fhm-table-introduce .table td,
+#fhm-table-introduce .table th {
+    padding: 15px 34px;
+    border: 1px solid #DEE2E6;
+    vertical-align: middle;
+}
