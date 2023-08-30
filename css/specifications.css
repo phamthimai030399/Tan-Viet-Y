@@ -1,0 +1,75 @@
+#fhm-specifications {
+  margin-top: 100px;
+  background: #269a52;
+  padding: 86px 0px 98px 0px;
+}
+#fhm-specifications h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+#fhm-specifications
+  .specifications-colum-left {
+    margin-bottom: 40px;
+  }
+#fhm-specifications
+  .specifications-colum-left
+  .specifications-colum-left-container
+  table
+  td {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px 10px 15px 36px;
+  vertical-align: middle;
+}
+#fhm-specifications
+  .specifications-colum-right
+  .item-specifications-colum-right
+  p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  margin: 0px 7px 6px 7px;
+}
+#fhm-specifications
+  .specifications-colum-right
+  .item-specifications-colum-right
+  img {
+  width: 100%;
+  object-fit: contain;
+}
+#fhm-specifications
+  .specifications-colum-right
+  .item-specifications-colum-right
+  .item-specifications-colum-right-img {
+  padding: 30px 10px 30px 10px;
+  background: #fff;
+  margin-bottom: 19px;
+}
+
+@media (min-width: 992px) {
+  #fhm-specifications .col-lg-6 {
+    width: 49%;
+  }
+  #fhm-specifications
+  .specifications-colum-left {
+    margin-bottom: 0px;
+  }
+  #fhm-specifications
+    .specifications-colum-left
+    .specifications-colum-left-container
+    table
+    td {
+    font-size: 16px;
+  }
+  #fhm-specifications
+  .specifications-colum-right
+  .item-specifications-colum-right
+  p {
+  font-size: 16px;
+  line-height: 32px;
+}
+}

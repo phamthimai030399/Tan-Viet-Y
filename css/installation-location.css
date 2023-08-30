@@ -1,0 +1,14 @@
+#fhm-installation-location {
+  margin-top: 90px;
+}
+#fhm-installation-location h4 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#fhm-installation-location img {
+    width: 100%;
+    object-fit: contain;
+}

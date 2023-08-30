@@ -15,6 +15,9 @@
 @import "./banner-product-romatic.css";
 @import "./product-characteristics.css";
 @import "./color-table.css";
+@import "./specifications.css";
+@import "./tile-accessories.css";
+@import "./installation-location.css";
 @import "./footer.css";
 
 body {
