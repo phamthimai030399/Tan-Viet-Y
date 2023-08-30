@@ -1,0 +1,64 @@
+#fhm-banner-product-romatic {
+    margin-bottom: -190px;
+}
+#fhm-banner-product-romatic .banner-product-romatic-img {
+    background: url("../image/banner-product-romatic-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+#fhm-banner-product-romatic .banner-product-romatic-container {
+    position: relative;
+    background-color: #fff;
+    padding: 67px 0 0 0;
+}
+#fhm-banner-product-romatic .banner-product-romatic-container .banner-product-romatic-top h3 {
+    margin-bottom: 15px;
+}
+#fhm-banner-product-romatic .banner-product-romatic-container .banner-product-romatic-top p {
+    color: #616161;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;   
+}
+#fhm-banner-product-romatic .banner-product-romatic-container .banner-product-romatic-main h4 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;   
+    margin: 50px 0 20px 0;
+}
+#fhm-banner-product-romatic .banner-product-romatic-container .banner-product-romatic-main .box-banner-product-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#fhm-banner-product-romatic .banner-product-romatic-container .banner-product-romatic-main .box-banner-product-img .item-banner-product-img {
+   margin: 15px 0;
+}
+#fhm-banner-product-romatic .banner-product-romatic-container .banner-product-romatic-main .box-banner-product-img .item-banner-product-img p {
+    color: #616161;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    #fhm-banner-product-romatic .banner-product-romatic-img {
+        background: url("../image/banner-product-romatic.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 400px;
+    }
+    #fhm-banner-product-romatic .banner-product-romatic-container {
+        top: -180px;
+        margin-left: calc(100% - 58%);
+        padding: 67px 57px 0px 80px;
+    }
+    #fhm-banner-product-romatic .banner-product-romatic-img {
+        background: url("../image/banner-product-romatic.png");
+    }
+}

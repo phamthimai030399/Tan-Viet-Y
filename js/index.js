@@ -65,10 +65,6 @@ const swiperProduct = new Swiper(".slider-product", {
   loop: true,
   speed: 1000,
   slidesPerView: 1,
-  // autoplay: {
-  //   delay: 2500,
-  //   disableOnInteraction: false,
-  // },
   navigation: {
     nextEl: ".slider-product .swiper-button-next",
     prevEl: ".slider-product .swiper-button-prev",
@@ -77,6 +73,16 @@ const swiperProduct = new Swiper(".slider-product", {
     el: ".swiper-pagination",
     clickable: true,
   },
+});
+const swiperProductCharacteristics = new Swiper(".box-product-characteristics-slider", {
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 40,
+  speed: 2000,
+  navigation: {
+    nextEl: ".box-product-characteristics-slider .swiper-button-next",
+    prevEl: ".box-product-characteristics-slider .swiper-button-prev",
+  }
 });
 
 $(document).ready(function () {

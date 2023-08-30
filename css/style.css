@@ -12,6 +12,8 @@
 @import "./banner-accreditation.css";
 @import "./certificate.css";
 @import "./quality-panels.css";
+@import "./banner-product-romatic.css";
+@import "./product-characteristics.css";
 @import "./footer.css";
 
 body {
@@ -66,7 +68,7 @@ p {
         font-size: 36px;
     }
     h5 {
-        font-size: 11px;
+        font-size: 12px;
     }
     .title-button {
         font-size: 12px;
