@@ -74,16 +74,19 @@ const swiperProduct = new Swiper(".slider-product", {
     clickable: true,
   },
 });
-const swiperProductCharacteristics = new Swiper(".box-product-characteristics-slider", {
-  loop: true,
-  slidesPerView: 1,
-  spaceBetween: 40,
-  speed: 2000,
-  navigation: {
-    nextEl: ".box-product-characteristics-slider .swiper-button-next",
-    prevEl: ".box-product-characteristics-slider .swiper-button-prev",
+const swiperProductCharacteristics = new Swiper(
+  ".box-product-characteristics-slider",
+  {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 40,
+    speed: 2000,
+    navigation: {
+      nextEl: ".box-product-characteristics-slider .swiper-button-next",
+      prevEl: ".box-product-characteristics-slider .swiper-button-prev",
+    },
   }
-});
+);
 
 $(document).ready(function () {
   $("#btn-search").click(function () {
@@ -118,7 +121,48 @@ $(document).ready(function () {
   $("#myModal").on("hide.bs.modal", function (e) {
     $("#video").attr("src", "");
   });
-  $(".nav-link.caret-down + .fa-caret-down").click(function(){
-    // alert('alert');
+  $("#form-control1").click(function () {
+    let element = $("#label-focus1");
+    element.addClass("label-top");
+  });
+  $(document).click(function (event) {
+    if (!$(event.target).is($("#form-control1"))) {
+      if ($("#form-control1").val().trim() === "") {
+        $("#label-focus1").removeClass("label-top");
+      }
+    }
+  });
+  $("#form-control2").click(function () {
+    let element = $("#label-focus2");
+    element.addClass("label-top");
+  });
+  $(document).click(function (event) {
+    if (!$(event.target).is($("#form-control2"))) {
+      if ($("#form-control2").val().trim() === "") {
+        $("#label-focus2").removeClass("label-top");
+      }
+    }
+  });
+  $("#form-control3").click(function () {
+    let element = $("#label-focus3");
+    element.addClass("label-top");
+  });
+  $(document).click(function (event) {
+    if (!$(event.target).is($("#form-control3"))) {
+      if ($("#form-control3").val().trim() === "") {
+        $("#label-focus3").removeClass("label-top");
+      }
+    }
+  });
+  $("#form-control4").click(function () {
+    let element = $("#label-focus4");
+    element.addClass("label-top");
+  });
+  $(document).click(function (event) {
+    if (!$(event.target).is($("#form-control4"))) {
+      if ($("#form-control4").val().trim() === "") {
+        $("#label-focus4").removeClass("label-top");
+      }
+    }
   });
 });

@@ -62,6 +62,12 @@
   pointer-events: none;
   padding: 5px;
 }
+#fhm-contact .contact-container .form-outline .label-content {
+    top: 15%;
+}
+#fhm-contact .contact-container .form-outline .label-top {
+  top: 0;
+}
 
 #fhm-contact .contact-container .form-outline .form-control {
   width: 100%;
