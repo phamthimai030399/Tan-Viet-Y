@@ -1,12 +1,26 @@
 #fhm-price-table {
-    margin-top: 75px;
+  margin-top: 75px;
 }
 #fhm-price-table h4 {
-    font-size: 32px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
 }
 #fhm-price-table .price-table-container {
-    border: 1px solid #000;
+  border: 1px solid #000;
+}
+#fhm-price-table .price-table-container img {
+  width: 100%;
+  object-fit: contain;
+  padding: 30px 0px;
+}
+#fhm-price-table .price-table-download {
+  font-size: 16px;
+  font-weight: 400;
+}
+#fhm-price-table .price-table-download span {
+    color: #2626F7;
+    margin-left: 5px;
 }
