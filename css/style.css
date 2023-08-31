@@ -18,6 +18,10 @@
 @import "./specifications.css";
 @import "./tile-accessories.css";
 @import "./installation-location.css";
+@import "./banner-quote-page.css";
+@import "./price-table.css";
+@import "./banner-contact-page.css";
+@import "./contact.css";
 @import "./footer.css";
 
 body {

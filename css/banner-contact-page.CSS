@@ -1,0 +1,13 @@
+#fhm-banner-contact-page {
+    background: url(../image/banner-contact-page-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+
+@media (min-width: 992px) {
+    #fhm-banner-contact-page {
+        background: url(../image/banner-contact-page.png);
+        min-height: 400px;
+    }
+}

@@ -1,0 +1,98 @@
+#fhm-contact {
+  margin-top: 75px;
+  margin-bottom: 90px;
+}
+#fhm-contact .box-content-left {
+    margin-bottom: 50px;
+}
+#fhm-contact .box-content-left h4 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+#fhm-contact .box-content-right h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+#fhm-contact .box-content-right p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 12px;
+}
+#fhm-contact .box-content-right span {
+  font-weight: 600;
+}
+#fhm-contact .box-content-left p {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 32px;
+}
+#fhm-contact .box-content-left span {
+  color: #949494;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 32px;
+}
+#fhm-contact .contact-container form {
+  margin-top: 30px;
+}
+
+#fhm-contact .contact-container .form-outline {
+  position: relative;
+  margin-bottom: 16px;
+  color: #616161;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+#fhm-contact .contact-container .form-outline .form-label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  transition: all 0.2s ease;
+  pointer-events: none;
+  padding: 5px;
+}
+
+#fhm-contact .contact-container .form-outline .form-control {
+  width: 100%;
+  padding: 10px;
+  transition: border-color 0.2s ease;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0;
+}
+
+#fhm-contact .contact-container .form-outline .form-control:focus {
+  box-shadow: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+#fhm-contact .contact-container .btn-primary {
+  display: flex;
+  padding: 5px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #269a52;
+  margin-top: 30px;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+@media (min-width: 992px) {
+    #fhm-contact .col-lg-6{
+        width: 45%;
+      }
+      #fhm-contact .box-content-left {
+        margin-bottom: auto;
+    }
+}

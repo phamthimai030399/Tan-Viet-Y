@@ -1,0 +1,12 @@
+#fhm-price-table {
+    margin-top: 75px;
+}
+#fhm-price-table h4 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+#fhm-price-table .price-table-container {
+    border: 1px solid #000;
+}
