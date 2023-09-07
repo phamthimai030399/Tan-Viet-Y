@@ -1,0 +1,15 @@
+#fhm-banner-news {
+    background: url(../image/banner-news-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+
+@media (min-width: 992px) {
+    #fhm-banner-news {
+        background: url(../image/banner-news.png);
+        min-height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

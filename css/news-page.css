@@ -1,0 +1,97 @@
+#fhm-news-page {
+  margin-top: 93px;
+}
+#fhm-news-page .news-container-left .item-news .item-news-title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-top: 30px;
+}
+#fhm-news-page .news-container-left .item-news {
+  margin-bottom: 65px;
+}
+#fhm-news-page .news-container-left .item-news .item-news-img {
+  width: 100%;
+}
+#fhm-news-page .news-container-left .item-news .item-news-img img {
+  object-fit: cover;
+  width: 100%;
+}
+#fhm-news-page .news-container-left .item-news .item-news-info {
+  margin-top: 13px;
+  color: #727272;
+  font-size: 11px;
+  font-weight: 400;
+  gap: 44px;
+}
+#fhm-news-page .news-container-left .item-news .item-news-info span {
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  letter-spacing: 0.28px;
+}
+#fhm-news-page .news-container-left .item-news .item-news-content {
+  margin-top: 30px;
+  color: #454545;
+  font-size: 16px;
+  font-weight: 400;
+}
+#fhm-news-page .news-container-left .item-news button {
+  display: flex;
+  padding: 5px 45px;
+  align-items: center;
+  gap: 10px;
+  background: #438e2a;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 40px;
+  border: none;
+  margin-top: 30px;
+}
+#fhm-news-page .news-container-right .title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+#fhm-news-page .news-container-right .news-container-right-content {
+  margin-top: 30px;
+}
+#fhm-news-page
+  .news-container-right
+  .news-container-right-content
+  .item-container {
+  margin-bottom: 16px;
+  gap: 16px;
+}
+#fhm-news-page
+  .news-container-right
+  .news-container-right-content
+  .item-container
+  .item-content {
+  padding: 10px 0px;
+}
+#fhm-news-page
+  .news-container-right
+  .news-container-right-content
+  .item-content-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+#fhm-news-page
+  .news-container-right
+  .news-container-right-content
+  .item-content-time {
+  font-size: 11px;
+  font-weight: 400;
+  padding-top: 16px;
+}
+@media (min-width: 992px) {
+  #fhm-news-page .news-container-left {
+    padding-right: 50px;
+  }
+  #fhm-news-page .news-container-left .item-news .item-news-info {
+    font-size: 14px;
+  }
+}
