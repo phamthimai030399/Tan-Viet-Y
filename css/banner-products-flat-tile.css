@@ -1,0 +1,15 @@
+#fhm-banner-products-flat-tile {
+    background: url(../image/banner-products-flat-tile-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+
+@media (min-width: 992px) {
+    #fhm-banner-products-flat-tile  {
+        background: url(../image/banner-products-flat-tile.png);
+        min-height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
