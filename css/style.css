@@ -31,6 +31,8 @@
 @import "./news-page.css";
 @import "./banner-news-detail.css";
 @import "./news-detail.css";
+@import "./banner-outstanding-project.css";
+@import "./outstanding-project-detail.css";
 @import "./footer.css";
 
 body {
