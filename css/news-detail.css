@@ -74,6 +74,7 @@
   .item-container {
   margin-bottom: 16px;
   gap: 16px;
+  cursor: pointer;
 }
 #fhm-news-detail
   .news-detail-container-right
@@ -89,6 +90,12 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
+}
+#fhm-news-detail
+  .news-detail-container-right
+  .news-container-right-content
+  .item-content-title a:hover{
+  color: #438e2a;
 }
 #fhm-news-detail
   .news-detail-container-right
@@ -124,8 +131,14 @@
   gap: 11px;
 }
 #fhm-news-detail .news-detail-container-left .news-comment .news-comment-reply {
-  padding-left: 10%;
+  margin-left: 10%;
 }
+#fhm-news-detail
+  .news-detail-container-left
+  .news-comment
+  .news-comment-content {
+    border-bottom: 1px solid #d0d0d0;
+  }
 #fhm-news-detail .news-detail-container-left .news-comment .news-comment-img {
   width: 20%;
 }
@@ -190,6 +203,7 @@
   line-height: 20px;
   letter-spacing: 0.03px;
   margin-top: 7px;
+  padding-bottom: 7px;
 }
 #fhm-news-detail .news-detail-container-left .your-comment {
   margin-top: 65px;
@@ -267,6 +281,40 @@
   background: #438e2a;
   border: none;
   margin-top: 45px;
+}
+#fhm-news-detail .news-detail-container-left .news-comment-reply .input-comment {
+  margin-top: 30px;
+}
+#fhm-news-detail .news-detail-container-left .news-comment-reply .input-comment input {
+  width: 80%;
+  padding: 15px 16px;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(208, 208, 208, 0.8);
+  color: #727272;
+}
+#fhm-news-detail .news-detail-container-left .news-comment-reply .input-comment input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.08px;
+}
+#fhm-news-detail .news-detail-container-left .news-comment-reply .input-comment input:focus {
+  box-shadow: none;
+}
+#fhm-news-detail .news-detail-container-left .news-comment-reply .input-comment button {
+  width: 20%;
+  padding: 15px 16px;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(208, 208, 208, 0.8);
+  color: #727272;
+}
+#fhm-news-detail .news-detail-container-left .news-comment-reply .input-comment button:hover {
+  background: #438e2a;
+  color: #fff;
 }
 @media (min-width: 992px) {
   #fhm-news-detail .news-detail-container-left {

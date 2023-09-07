@@ -49,9 +49,6 @@
     font-weight: 300;
     padding-bottom: 10px;
   }
-  #fhm-footer .footer-main .footer-element ul a:hover {
-    text-decoration: underline;
-  }
   #fhm-footer .footer-main .footer-social {
     gap: 47px;
   }

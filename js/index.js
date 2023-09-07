@@ -127,8 +127,23 @@ $(document).ready(function () {
   });
   $(document).click(function (event) {
     if (!$(event.target).is($("#form-control1"))) {
-      if ($("#form-control1").val().trim() === "") {
+      if ($("#form-control1").length > 0 && $("#form-control1").val().trim() === "") {
         $("#label-focus1").removeClass("label-top");
+      }
+    }
+    if (!$(event.target).is($("#form-control2"))) {
+      if ($("#form-control2").length > 0 && $("#form-control2").val().trim() === "") {
+        $("#label-focus2").removeClass("label-top");
+      }
+    }
+    if (!$(event.target).is($("#form-control3"))) {
+      if ($("#form-control3").length > 0 && $("#form-control3").val().trim() === "") {
+        $("#label-focus3").removeClass("label-top");
+      }
+    }
+    if (!$(event.target).is($("#form-control4"))) {
+      if ($("#form-control4").length > 0 && $("#form-control4").val().trim() === "") {
+        $("#label-focus4").removeClass("label-top");
       }
     }
   });
@@ -136,33 +151,18 @@ $(document).ready(function () {
     let element = $("#label-focus2");
     element.addClass("label-top");
   });
-  $(document).click(function (event) {
-    if (!$(event.target).is($("#form-control2"))) {
-      if ($("#form-control2").val().trim() === "") {
-        $("#label-focus2").removeClass("label-top");
-      }
-    }
-  });
   $("#form-control3").click(function () {
     let element = $("#label-focus3");
     element.addClass("label-top");
-  });
-  $(document).click(function (event) {
-    if (!$(event.target).is($("#form-control3"))) {
-      if ($("#form-control3").val().trim() === "") {
-        $("#label-focus3").removeClass("label-top");
-      }
-    }
   });
   $("#form-control4").click(function () {
     let element = $("#label-focus4");
     element.addClass("label-top");
   });
-  $(document).click(function (event) {
-    if (!$(event.target).is($("#form-control4"))) {
-      if ($("#form-control4").val().trim() === "") {
-        $("#label-focus4").removeClass("label-top");
-      }
-    }
+  $(".reply").click(function (event) {
+    event.preventDefault();
+    let boxComment = $(this).closest(".box-comment");
+    let inputComment = boxComment.find(".input-comment");
+    inputComment.removeClass("d-none");
   });
 });
