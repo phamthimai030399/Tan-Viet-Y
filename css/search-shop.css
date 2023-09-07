@@ -1,0 +1,94 @@
+#fhm-search-shop {
+  margin-top: 40px;
+}
+#fhm-search-shop h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+}
+#fhm-search-shop .search-shop-container .search-shop-top {
+  gap: 12px;
+}
+#fhm-search-shop .search-shop-container .search-shop-top .form-select-city {
+  width: 130%;
+}
+#fhm-search-shop .search-shop-container .search-shop-top .form-select {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 10px 10px 16px;
+}
+#fhm-search-shop .search-shop-container .search-shop-top button {
+  display: flex;
+  padding: 12px 34px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 2px;
+  background: #438e2a;
+  border: none;
+}
+#fhm-search-shop .search-shop-container .search-results-title {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 27px;
+}
+#fhm-search-shop .search-shop-container .search-results-conatiner {
+  margin-top: 24px;
+  overflow-y: auto;
+  height: 380px;
+}
+#fhm-search-shop .search-results-conatiner .item-search-results {
+  gap: 15px;
+  margin-bottom: 20px;
+  margin-right: 31px;
+}
+#fhm-search-shop .item-search-results .search-results-img {
+  padding: 5px 32px;
+  background: #f4f4f4;
+  justify-content: center;
+  align-items: center;
+}
+#fhm-search-shop .item-search-results .search-results-content {
+    position: relative;
+}
+#fhm-search-shop .item-search-results .search-results-content .branch-name {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12px;
+}
+#fhm-search-shop .item-search-results .search-results-content .address {
+  color: #454545;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  margin: 8px 0px;
+}
+#fhm-search-shop .item-search-results .search-results-content .directional {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 16px; 
+    text-decoration-line: underline;
+    position: absolute;
+    bottom: 0;
+}
+#fhm-search-shop .search-shop-container .search-shop-map iframe {
+    height: 400px
+}
+#fhm-search-shop .search-shop-container .search-shop-map {
+   margin-top: 50px;
+}
+@media (min-width: 992px) {
+    #fhm-search-shop .search-shop-container .search-shop-map {
+        padding-left: 25px;
+    }
+    #fhm-search-shop .search-shop-container .search-shop-content {
+        padding-right: 25px;
+    }
+    #fhm-search-shop .search-shop-container .search-shop-map iframe {
+        height: 100%
+    }
+    #fhm-search-shop .search-shop-container .search-shop-map {
+        margin-top: 0px;
+     }
+}
