@@ -3,7 +3,11 @@
 }
 #fhm-outstanding-project-detail .outstanding-project-detail-conatiner {
     flex-wrap: wrap;
-    gap: 20px 20px;
+    gap: 80px 3.05%;
+    margin-top: 50px;
+}
+#fhm-outstanding-project-detail .outstanding-project-detail-conatiner .box-item {
+  cursor: pointer;
 }
 #fhm-outstanding-project-detail .title {
   text-align: center;
@@ -11,11 +15,18 @@
   font-weight: 700;
 }
 #fhm-outstanding-project-detail .box-item {
-  width: 31.5%;
+  /* width: 100% */
+}
+#fhm-outstanding-project-detail .outstanding-project-detail-img {
+  overflow: hidden;
 }
 #fhm-outstanding-project-detail .outstanding-project-detail-img img {
   width: 100%;
   object-fit: cover;
+}
+#fhm-outstanding-project-detail .outstanding-project-detail-img img:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
 }
 #fhm-outstanding-project-detail .outstanding-project-detail-title {
   font-size: 20px;
@@ -26,7 +37,7 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-#fhm-outstanding-project-detail .outstanding-project-detail-title:hover {
+#fhm-outstanding-project-detail .outstanding-project-detail-title a:hover {
   color: #438e2a;
 }
 #fhm-outstanding-project-detail .outstanding-project-detail-content {
@@ -40,4 +51,9 @@
   text-overflow: ellipsis;
   max-height: 56px;
   margin-top: 10px;
+}
+@media (min-width:992px) {
+  #fhm-outstanding-project-detail .box-item {
+    width: 31.3%;
+  }
 }
