@@ -127,7 +127,7 @@
   padding-left: 10%;
 }
 #fhm-news-detail .news-detail-container-left .news-comment .news-comment-img {
-  width: 10%;
+  width: 20%;
 }
 #fhm-news-detail
   .news-detail-container-left
@@ -215,7 +215,7 @@
   margin-bottom: 16px;
 }
 #fhm-news-detail .news-detail-container-left form .col-group .form-group {
-  width: 49%;
+  width: 100%;
 }
 #fhm-news-detail .news-detail-container-left form .col-group .form-group input {
   padding: 15px 16px;
@@ -295,5 +295,11 @@
     .item-news-content-img
     img {
     margin-top: 0px;
+  }
+  #fhm-news-detail .news-detail-container-left form .col-group .form-group {
+    width: 49%;
+  }
+  #fhm-news-detail .news-detail-container-left .news-comment .news-comment-img {
+    width: 10%;
   }
 }
