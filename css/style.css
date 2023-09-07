@@ -29,6 +29,8 @@
 @import "./search-shop.css";
 @import "./banner-news.css";
 @import "./news-page.css";
+@import "./banner-news-detail.css";
+@import "./news-detail.css";
 @import "./footer.css";
 
 body {
