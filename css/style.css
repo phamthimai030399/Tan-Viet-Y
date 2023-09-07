@@ -22,6 +22,8 @@
 @import "./price-table.css";
 @import "./banner-contact.css";
 @import "./contact.css";
+@import "./banner-product-detail.css";
+@import "./product-detail.css";
 @import "./footer.css";
 
 body {
