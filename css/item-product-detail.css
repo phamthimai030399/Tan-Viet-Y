@@ -1,3 +1,6 @@
+.fhm-item-product-detail {
+  margin-top: 115px !important;
+}
 .fhm-item-product-detail .box-item {
   display: flex;
   width: 359px;
@@ -9,11 +12,10 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .fhm-item-product-detail .item-product-detail-title {
-  font-size: 34px;
-  font-weight: 700;
-  line-height: 70px;
-  text-transform: capitalize;
-  text-align: center;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+text-align: center;
 }
 .fhm-item-product-detail .box-item:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
@@ -57,6 +59,6 @@
 }
 @media (min-width: 992px) {
   .fhm-item-product-detail .item-product-detail-title {
-    font-size: 36px;
+    font-size: 20px;
   }
 }
