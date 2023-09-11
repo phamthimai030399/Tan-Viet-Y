@@ -24,7 +24,7 @@
 @import "./contact.css";
 @import "./banner-product-detail.css";
 @import "./product-detail.css";
-@import "./banner-products-corrugated-brick.css";
+@import "./banner-item-product-detail.css";
 @import "./banner-products-flat-tile.css";
 @import "./search-shop.css";
 @import "./banner-news.css";
@@ -33,6 +33,7 @@
 @import "./news-detail.css";
 @import "./banner-outstanding-project.css";
 @import "./outstanding-project-detail.css";
+@import "./item-product-detail.css";
 @import "./footer.css";
 
 body {

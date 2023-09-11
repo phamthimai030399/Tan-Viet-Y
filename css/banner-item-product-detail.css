@@ -1,0 +1,15 @@
+#fhm-banner-item-product-detail {
+    background: url(../image/banner-item-product-detail-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+
+@media (min-width: 992px) {
+    #fhm-banner-item-product-detail {
+        background: url(../image/banner-item-product-detail.png);
+        min-height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
