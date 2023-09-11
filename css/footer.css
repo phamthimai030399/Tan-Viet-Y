@@ -1,10 +1,11 @@
 #fhm-footer {
-    padding-bottom: 157px;
+    padding-bottom: 50px;
     padding-top: calc(100% - 78%);
-    background: url("../image/background-footer.png");
-    background-size: contain;
+    background: url("../image/footer-new-mobile.png");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 75%;
+    margin-bottom: 100px;
   }
   #fhm-footer .footer-main {
     margin-bottom: 20px;
@@ -66,6 +67,12 @@
 
   }
   @media (min-width: 992px) {
+    #fhm-footer {
+      background: url("../image/footer-new.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 0% 75%;
+    }
     #fhm-footer .footer-main .footer-element .footer-element-information {
         gap: 69px;
     }
